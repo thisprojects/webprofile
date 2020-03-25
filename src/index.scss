@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
 
-$text-font: 'Comfortaa', cursive;
+$text-font: "Comfortaa", cursive;
 $text-color: #323232;
 $background: lightgray;
 $coolDudeOrange: #fc814a;
@@ -15,26 +15,33 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-@import './Scss/footer.scss';
-@import './Scss/navigation.scss';
-@import './Scss/home.scss';
-@import './Scss/technology';
+@import "./Scss/footer.scss";
+@import "./Scss/navigation.scss";
+@import "./Scss/home.scss";
+@import "./Scss/technology";
 
 .fade-in {
   animation: fadein 1s;
 }
 
 @keyframes fadein {
-  0% {opacity: 0}
-  100% {opacity: 1}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .experience {
     flex-direction: column;
+  }
+  header .info {
+    display: none;
   }
 }

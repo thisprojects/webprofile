@@ -19,6 +19,10 @@ const Title = () => (
       <h3>Software Developer</h3>
       <NavItems />
     </div>
+    <div className="info">
+      <p>Hosted With Firebase</p>
+      <p>Built With React Router</p>
+    </div>
   </header>
 );
 
