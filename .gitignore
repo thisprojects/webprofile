@@ -10,6 +10,7 @@
 
 # production
 /build
+/public/apps
 
 # misc
 .DS_Store

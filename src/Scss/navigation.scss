@@ -1,0 +1,27 @@
+header {
+  padding: 10px 0px 30px 0px;
+  background-color: $background;
+  margin-bottom: 1px;
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 5px 0px 0px 40px;
+    padding: 0px;
+  }
+  li {
+    margin: 0px 5px 0px 5px;
+    a {
+      color:$coolDudeOrange;
+      text-underline-position: under;
+      &:hover {
+        color:#5151f3;
+      }
+    }
+  }
+  h2 { 
+    margin: 10px 0px 0px 20px;
+  }
+  h3 {
+    margin: 2px 0px 0px 30px;
+  }
+}
