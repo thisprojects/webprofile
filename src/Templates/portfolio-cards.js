@@ -38,7 +38,7 @@ export default [
       "Test framework 'Jest'"
     ],
     gitHub: "https://github.com/thisprojects/space-station-spotter",
-    link: "./apps/iss-spotter",
+    link: "./apps/js-trainer",
     date: "March 31, 2020"
   },
   {
