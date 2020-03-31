@@ -28,6 +28,20 @@ export default [
     date: "February 15, 2020"
   },
   {
+    title: "JS Trainer",
+    img: "./images/js.png",
+    text: ["How well do you know Javascript?"],
+    list: [
+      "React project",
+      "Redux",
+      "React Hooks",
+      "Test framework 'Jest'"
+    ],
+    gitHub: "https://github.com/thisprojects/space-station-spotter",
+    link: "./apps/iss-spotter",
+    date: "March 31, 2020"
+  },
+  {
     title: "ISS Locator",
     img: "./images/isss.png",
     text: ["When will the space station will be over your location?"],
