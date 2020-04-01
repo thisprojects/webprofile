@@ -9,7 +9,7 @@ const MapPortfolioItems = () =>
       <img src={ item.img } alt="portfolio item"/>
       <MapParagraphs paragraph={ item.text } />
       <MapListItems list={ item.list } />
-      <a href={ item.gitHub }>Github</a>
+      <a href={ item.gitHub } target="_blank" rel="noopener noreferrer">Github</a>
       <AppButton link={ item.link } />
       <p>Published { item.date }</p>
     </RandomColourWrapper>

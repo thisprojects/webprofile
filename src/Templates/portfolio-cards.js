@@ -37,7 +37,7 @@ export default [
       "React Hooks",
       "Test framework 'Jest'"
     ],
-    gitHub: "https://github.com/thisprojects/space-station-spotter",
+    gitHub: "https://github.com/thisprojects/js-trainer",
     link: "./apps/js-trainer",
     date: "March 31, 2020"
   },
