@@ -1,7 +1,6 @@
 export const core = [
   "Javascript",
   "React",
-  "Github",
   "HTML",
   "CSS / SCSS",
   "Jest"
@@ -14,7 +13,8 @@ export const intermediate = [
   "Google Cloud Functions",
   "Google Firebase",
   "jQuery",
-  "Node.js"
+  "Node.js",
+  "Github"
 ];
 
 export const basic = [
@@ -36,7 +36,7 @@ export const paragraphs = [
   `I have experience with software testing and use the Jest framework for
   Javascript.`,
 
-  `I have some experience with CRUD in Postgres and a basic understanding of GraphQL. I also like to make use of
+  `I have basic a basic knowledge of CRUD in Postgres and an understanding of GraphQL. I also like to make use of
   Node.js and Express in Google Cloud Functions, mostly as proxies for
   third party API's that do not support CORS.`,
 
