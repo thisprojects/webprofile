@@ -14,18 +14,18 @@ export default [
     date: "March 1, 2020"
   },
   {
-    title: "UK Crime Statistics",
-    img: "./images/crime.png",
-    text: ["Displays UK crime information based on location."],
+    title: "Corona Stats Uk",
+    img: "./images/corona.png",
+    text: ["Displays UK statistics for Corona virus"],
     list: [
-      "React project",
-      "Google Cloud Functions and Maps",
-      "Test framework 'Jest'.",
-      "API data from https://data.police.uk/"
+      "GraphQL + Postgres",
+      "Node JS",
+      "Highcharts",
+      "Apollo Client"
     ],
-    gitHub: "https://github.com/thisprojects/crime-stats",
-    link: "./apps/crime-stats",
-    date: "February 15, 2020"
+    gitHub: "https://github.com/thisprojects/corona-stats-uk",
+    link: "./apps/corona_tracker_uk",
+    date: "April 15, 2020"
   },
   {
     title: "JS Trainer",
@@ -40,6 +40,20 @@ export default [
     gitHub: "https://github.com/thisprojects/js-trainer",
     link: "./apps/js-trainer",
     date: "March 31, 2020"
+  },
+  {
+    title: "UK Crime Statistics",
+    img: "./images/crime.png",
+    text: ["Displays UK crime information based on location."],
+    list: [
+      "React project",
+      "Google Cloud Functions and Maps",
+      "Test framework 'Jest'.",
+      "API data from https://data.police.uk/"
+    ],
+    gitHub: "https://github.com/thisprojects/crime-stats",
+    link: "./apps/crime-stats",
+    date: "February 15, 2020"
   },
   {
     title: "ISS Locator",
