@@ -10,7 +10,7 @@ const NavItems = () => (
       <Link to="/technology">Technology</Link>
     </li>
     <li>
-      <a href="https://github.com/thisprojects/main" rel="noopener noreferrer" target="_blank">
+      <a href="https://github.com/thisprojects/webprofile" rel="noopener noreferrer" target="_blank">
         Github
       </a>
     </li>
