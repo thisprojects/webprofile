@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
 
-$text-font: "Comfortaa", cursive;
+$text-font: "Comfortaa", sans-serif;
 $text-color: #323232;
 $background: lightgray;
 $coolDudeOrange: #fc814a;
@@ -23,6 +23,10 @@ code {
 @import "./Scss/navigation.scss";
 @import "./Scss/home.scss";
 @import "./Scss/technology";
+
+svg {
+  padding: 20px;
+}
 
 .fade-in {
   animation: fadein 1s;

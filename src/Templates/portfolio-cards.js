@@ -1,7 +1,15 @@
+import React from "react"
+import { WiDayCloudy } from "react-icons/wi";
+import { FaLaptopMedical } from "react-icons/fa";
+import { DiJavascript } from "react-icons/di";
+import { GiSpaceShuttle, GiScales } from "react-icons/gi";
+import { BsFillChatSquareQuoteFill } from "react-icons/bs";
+import { GiSwordsEmblem } from "react-icons/gi";
+
 export default [
   {
     title: "Fair Days Weather",
-    img: "./images/weather.png",
+    icon: <WiDayCloudy size="10em"/>,
     text: ["A weather app that only forcasts fair weather days."],
     list: [
       "React project",
@@ -15,7 +23,7 @@ export default [
   },
   {
     title: "Corona Stats Uk",
-    img: "./images/corona.png",
+    icon: < FaLaptopMedical size="10em"/>,
     text: ["Displays UK statistics for Corona virus"],
     list: [
       "GraphQL + Postgres",
@@ -29,7 +37,7 @@ export default [
   },
   {
     title: "JS Trainer",
-    img: "./images/js.png",
+    icon: <DiJavascript size="10em"/>,
     text: ["How well do you know Javascript?"],
     list: [
       "React project",
@@ -43,7 +51,7 @@ export default [
   },
   {
     title: "UK Crime Statistics",
-    img: "./images/crime.png",
+    icon: <GiScales size="10em"/>,
     text: ["Displays UK crime information based on location."],
     list: [
       "React project",
@@ -57,7 +65,7 @@ export default [
   },
   {
     title: "ISS Locator",
-    img: "./images/isss.png",
+    icon: <GiSpaceShuttle size="10em"/>,
     text: ["When will the space station will be over your location?"],
     list: [
       "React project",
@@ -71,7 +79,7 @@ export default [
   },
   {
     title: "Random Quote Generator",
-    img: "./images/quote.png",
+    icon: <BsFillChatSquareQuoteFill size="10em"/>,
     text: [
       "View and record inspirational quotes from some of history's greatest."
     ],
@@ -82,7 +90,7 @@ export default [
   },
   {
     title: "Game of Thrones House Picker",
-    img: "./images/thrones.png",
+    icon: <GiSwordsEmblem size="10em"/>,
     text: [
       "Randomly peruse your new family name from a database of game of thrones great houses! (life expectancy may vary....)"
     ],
