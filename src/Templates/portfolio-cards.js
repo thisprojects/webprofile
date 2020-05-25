@@ -3,10 +3,24 @@ import { WiDayCloudy } from "react-icons/wi";
 import { FaLaptopMedical } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { GiSpaceShuttle, GiScales } from "react-icons/gi";
-import { BsFillChatSquareQuoteFill } from "react-icons/bs";
+import { BsFillChatSquareQuoteFill, BsCardChecklist } from "react-icons/bs";
 import { GiSwordsEmblem } from "react-icons/gi";
 
 export default [
+  {
+    title: "Aviation Checklist",
+    icon: <BsCardChecklist size="10em"/>,
+    text: ["A 'todo' style checklist."],
+    list: [
+      "React project",
+      "Redux",
+      "React Router",
+      "React Hooks"
+    ],
+    gitHub: "https://github.com/thisprojects/aviation-checklist",
+    link: "./apps/checklist/home",
+    date: "May 25, 2020"
+  },
   {
     title: "Fair Days Weather",
     icon: <WiDayCloudy size="10em"/>,
