@@ -18,7 +18,7 @@ export default [
       "React Hooks"
     ],
     gitHub: "https://github.com/thisprojects/aviation-checklist",
-    link: "./apps/checklist/home",
+    link: "https://aviation-checklist-bc1d2.web.app/",
     date: "May 25, 2020"
   },
   {
